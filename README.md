@@ -1,4 +1,3 @@
-# frist-react-size
 # LAB - 41
 
 ## MVP React Native App
