@@ -29,9 +29,6 @@ export default function RandomStr(){
      <View>
         <When condition={true}>
           <Button title='Click on Me' onPress={_handlePress}/>
-        </When> 
-        <When condition={true}>
-      
         </When>
         <Text>
           {random}
