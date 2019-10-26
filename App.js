@@ -6,7 +6,7 @@ import RandomStr from './component/randomString.js'
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Just shake!</Text>
+      {/* <Text>Just shake!</Text> */}
       <RandomStr/>
     </View>
   );
@@ -15,7 +15,8 @@ export default function App() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    fontSize:12,
+    backgroundColor: '#F0FFFF',
     alignItems: 'center',
     justifyContent: 'center',
   },

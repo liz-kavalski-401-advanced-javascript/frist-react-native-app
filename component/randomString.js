@@ -4,34 +4,34 @@ import { DeviceMotion} from 'expo-sensors';
 import {When} from './when.js'
 
 export default function RandomStr(){  
-   const [random,setRandom]=useState(0)
+   const [random,setRandom]=useState('Ask a yes/no question and Just Shake your phone')
 
     let listOfStr=['Yes','No','Try Again Later','Might Not Be A Good Idea', 'Go for it','Aright','Definitely go for it', 'That A Great Idea', 'You Might Want to Rethink Your Decisions'];
 
     let randomMaker = listOfStr[Math.floor(Math.random()*listOfStr.length)];
-  console.log(randomMaker,'line 8')
+  //console.log(randomMaker,'line 8')
    
   const _handlePress=()=>{
       setRandom(randomMaker)
-      console.log('I got in!')
+     // console.log('I got in!')
     }
  useEffect(()=>{
   let acceleration={ x:5,y:5,z:5}
   DeviceMotion.addListener(({acceleration})=> {
-    if(acceleration.x >.5 && acceleration.z >.4){
+    if(acceleration.x >.8 && acceleration.z >.5){
       _handlePress()
-      console.log("cool");
+     // console.log("cool");
       DeviceMotion.removeAllListeners()
     }
   }
  )})
     return (
      <View>
-        <When condition={true}>
+        {/* <When condition={true}>
           <Button title='Click on Me' onPress={_handlePress}/>
-        </When>
+        </When> */}
         <Text>
-          {random}
+         {random}
         </Text>
      </View>
     );
@@ -39,7 +39,8 @@ export default function RandomStr(){
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
+    fontSize:12,
+    backgroundColor: '#F0FFFF',
     alignItems: 'center',
     justifyContent: 'center',
   },
