@@ -5,10 +5,7 @@
 ### Author: Liz Kavalski
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-
-#### Documentation
-
+* [submission PR](https://github.com/liz-kavalski-401-advanced-javascript/frist-react-native-app/commit/1d939964c930deb1600352b24e2b1b59a8908285)
 
 ### Modules
 #### `App.js`
@@ -28,5 +25,4 @@ Do a `git clone` and npm init.
 * Either shake or press on the 'click on me' button
   
 
-#### UML
-Link to an image of the UML for your application and response to events
+
