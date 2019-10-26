@@ -22,7 +22,7 @@ Do a `git clone` and npm init.
 * Endpoint: `localhost:####`
   * Will open a web page.
   * scan the QRL _tunnal_ code with mobile devive.
-* Either shake or press on the 'click on me' button
+* Just shake the phone to get a quick 'yes' or 'no' responsed.
   
 
 
