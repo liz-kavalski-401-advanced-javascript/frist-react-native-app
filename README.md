@@ -1,9 +1,8 @@
-# frist-react-size
 # LAB - 41
 
 ## MVP React Native App
 
-### Author: Student/Group Name
+### Author: Liz Kavalski
 
 ### Links and Resources
 * [submission PR](http://xyz.com)
