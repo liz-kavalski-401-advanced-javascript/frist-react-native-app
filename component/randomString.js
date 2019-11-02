@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import {StyleSheet, Text, View,Button} from 'react-native';
 import { DeviceMotion} from 'expo-sensors';
 import {When} from './when.js'
+import { WorldAlignmentTypes } from 'expo/build/AR';
 
 export default function RandomStr(){  
    const [random,setRandom]=useState('Ask a yes/no question and Just Shake your phone')
@@ -26,11 +27,11 @@ export default function RandomStr(){
   }
  )})
     return (
-     <View>
+     <View style={styles.container}>
         {/* <When condition={true}>
           <Button title='Click on Me' onPress={_handlePress}/>
         </When> */}
-        <Text>
+        <Text style= {styles.text}>
          {random}
         </Text>
      </View>
@@ -40,9 +41,18 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     fontSize:12,
-    backgroundColor: '#F0FFFF',
-    alignItems: 'center',
+    //alignItems: 'center',
     justifyContent: 'center',
+    backgroundColor:'#1E1F27',
+    padding:80,
   },
+  text:{
+    overflow:'hidden',
+    fontSize:16,
+    backgroundColor:'#FFFFFF',
+    padding:20,
+    margin:50,
+    borderRadius:30,
+  }
 });
  
