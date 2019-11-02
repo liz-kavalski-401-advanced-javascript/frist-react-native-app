@@ -5,10 +5,7 @@
 ### Author: Liz Kavalski
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-
-#### Documentation
-
+* [submission PR](https://github.com/liz-kavalski-401-advanced-javascript/frist-react-native-app/commit/1d939964c930deb1600352b24e2b1b59a8908285)
 
 ### Modules
 #### `App.js`
@@ -25,8 +22,7 @@ Do a `git clone` and npm init.
 * Endpoint: `localhost:####`
   * Will open a web page.
   * scan the QRL _tunnal_ code with mobile devive.
-* Either shake or press on the 'click on me' button
+* Just shake the phone to get a quick 'yes' or 'no' responsed.
   
 
-#### UML
-Link to an image of the UML for your application and response to events
+
